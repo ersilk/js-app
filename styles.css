@@ -18,10 +18,17 @@ li a.user-tab {
     margin-top: 8%;
 }
 .product-list {
-    width: 30%;
-    display: inline;
+    width: 25%;
+    display: inline-block;
+    overflow: scroll;
+    height: 600px;
 }
 .product-details {
     width: 70%;
-    display: inline;
+    display: inline-block;
+}
+img.product_img {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
 }
