@@ -1,0 +1,27 @@
+ul.nav.navbar-nav {
+    float: right;
+}
+.navbar-default {
+    background-color: #34495e;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+li a.user-tab {
+    border-radius: 100%;
+    background-color: #c1bdbe;
+    display: inline-block;
+    line-height: 12px;
+    margin-top: 8%;
+}
+.product-list {
+    width: 30%;
+    display: inline;
+}
+.product-details {
+    width: 70%;
+    display: inline;
+}
