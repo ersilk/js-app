@@ -18,21 +18,23 @@ li a.user-tab {
     margin-top: 8%;
 }
 .product-list {
-    width: 25%;
+    width: 30%;
     display: inline-block;
     overflow: scroll;
     height: 600px;
     float: left;
 }
 .product-details {
-    width: 70%;
+    width: 65%;
     display: inline-block;
     float: right;
 }
 img.product_img {
-    width: 76px;
-    height: 76px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    float: left;
+    padding: 3%;
 }
 .btn-default {
     display: block;
@@ -40,4 +42,28 @@ img.product_img {
 }
 img.big_img {
     width: 70%;
+    height: 360px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.details_box {
+    width: 70%;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.infos {
+    float: left;
+    text-align: left;
+    padding: 4% 0% 0% 2%;
+}
+.wishlist {
+    float: right;
+    padding: 10% 5% 0% 0%;
+}
+span.glyphicon.glyphicon-heart-empty:hover {
+    font-size: 20px;
+}
+span.glyphicon.glyphicon-heart-empty:active {
+    color: red;
 }
