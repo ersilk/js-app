@@ -20,5 +20,12 @@ $(document).ready(function() {
               $('.product-details').empty();
               $('.product-details').append('<img class="big_img" src="' + data.payload[this.id].picture.url + '" alt="pics"></img>' + '<div class="details_box"><h4>Details:</h4><p><strong>Category: </strong>' + data.payload[this.id].category.name + '</p><p><strong>Description: </strong>' + data.payload[this.id].description + '</p><p><strong>Price: </strong>' + data.payload[this.id].prices[0].price + ' Leke</p><p><strong>Created at: </strong>' + data.payload[this.id].createdAt + '</p><p><strong>Updated at: </strong>' + data.payload[this.id].updatedAt + '</p></div>');
         });
+        
+                $( ".glyphicon-heart-empty" ).click(function() {
+                      $(".glyphicon-heart-empty").toggleClass("icon-clicked");
+                    localStorage['iconClass'] = 'icon-clicked';
+                    
+                });
+        
     });
 });

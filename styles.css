@@ -67,3 +67,7 @@ span.glyphicon.glyphicon-heart-empty:hover {
 span.glyphicon.glyphicon-heart-empty:active {
     color: red;
 }
+.icon-clicked{
+    font-size: 20px;
+    color: red;
+}
